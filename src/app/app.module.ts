@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { Q1Component } from './components/q1/q1.component';
 import { Q3Component } from './components/q3/q3.component';
 import { Q4Component } from './components/q4/q4.component';
+import { Q2Component } from './components/q2/q2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Q1Component,
     Q3Component,
-    Q4Component
+    Q4Component,
+    Q2Component
   ],
   imports: [
     BrowserModule,
