@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+.bottomright {
+    position: absolute;
+    bottom: 15px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
